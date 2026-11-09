@@ -1,7 +1,7 @@
 # ai-decision-making-ab-test
 A/B Testing the Impact of AI Recommendations on Business Decision Accuracy
 # أثر توصيات الذكاء الاصطناعي على دقة قرارات الأعمال
-**The Impact of AI Recommendations on Business Decision Accuracy**
+
 
 ## الوصف
 يهدف المشروع إلى تقييم أثر توصيات الذكاء الاصطناعي على دقة اتخاذ قرارات الأعمال باستخدام منصة افتراضية لتحليل البيانات. تساعد تجربة A/B على تحديد جدوى دمج التوصيات الذكية في أنظمة دعم القرار مقارنة بالتحليل التقليدي.
