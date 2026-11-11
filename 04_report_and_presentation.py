@@ -54,20 +54,7 @@ def main():
 **القيود:** هذه نتائج محاكاة، ولا تثبت أثرًا حقيقيًا في بيئة تشغيلية.
 """
     (reports/"One_Page_Report.md").write_text(report,encoding="utf-8")
-    slides = f"""# مخطط عرض التجربة (اختياري، وليس ملف PowerPoint)
 
-1. عنوان المشروع وسؤال التجربة.
-2. الفرضية وتصميم A/B ووحدة العشوأة.
-3. حجم العينة والمدة: {sample['n_total_required']} مستخدمًا على الأقل، {sample['duration_days']} يومًا.
-4. خطة التحليل وفحص SRM.
-5. النتائج: A={r['accuracy']['A']:.2%}، B={r['accuracy']['B']:.2%}.
-6. CUPED والمقاييس الثانوية والحماية.
-7. القرار النهائي: {decision}
-8. القيود: بيانات محاكاة فقط.
-
-الرسوم في outputs/charts/.
-"""
-    (reports/"Presentation_Outline.md").write_text(slides,encoding="utf-8")
-    print("04 | Final decision, one-page report and optional presentation outline saved")
+    print("04 | Final decision, one-page report saved")
 if __name__ == "__main__":
     main()
