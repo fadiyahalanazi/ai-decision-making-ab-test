@@ -1,0 +1,6 @@
+{
+  "decision": "لا نطلق، لأننا استبعدنا وجود أثر بالحجم الذي يهمنا.",
+  "guardrails_ok": true,
+  "mde_abs": 0.05,
+  "source": "ai_decision_ab_test_project(2).py"
+}

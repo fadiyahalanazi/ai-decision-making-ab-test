@@ -1,0 +1,23 @@
+{
+  "project": "AI Recommendations for Business Decision Accuracy",
+  "baseline_conversion": 0.6,
+  "mde_abs": 0.05,
+  "alpha": 0.05,
+  "power": 0.8,
+  "daily_new_users": 200,
+  "treatment_share": 0.5,
+  "true_lift_abs": 0.05,
+  "order_value_mean": 120,
+  "order_value_sd": 50,
+  "order_value_effect": 0,
+  "margin": 0.25,
+  "extra_cost_per_order_b": 0,
+  "cancel_rate": 0.05,
+  "cancel_effect": 0.0,
+  "support_rate": 0.03,
+  "support_effect": 0.0,
+  "activity_strength": 0.8,
+  "novelty_boost": 0.0,
+  "srm_bug_share": 0.0,
+  "seed": 2026
+}
