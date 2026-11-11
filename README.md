@@ -176,7 +176,10 @@ ai-decision-making-ab-test/
 بعد تنزيل المستودع وفتح مجلده في Terminal أو CMD:
 
 ```bash
-cd ai-decision-making-ab-test-main
+
+# افتح Terminal أو CMD من داخل المجلد الذي يحتوي على main.py
+python -m pip install -r requirements.txt
+
 ```
 
 ### تشغيل المراحل الأربع
@@ -195,7 +198,9 @@ python 04_report_and_presentation.py
 ```bash
 python main.py
 ```
+**ملاحظة مهمة:** يجب تشغيل الأوامر من داخل المجلد الذي يحتوي على `main.py` و`requirements.txt`. يتطلب المشروع تثبيت Python والمكتبات المذكورة في ملف `requirements.txt`.
 
+بعد التشغيل، تُحفظ البيانات في `data/`، والرسوم البيانية في `outputs/charts/`، والنتائج الإحصائية في `outputs/results/`، والتقرير النهائي في `reports/`.
 **ملاحظة:** يحتوي `main.py` على بعض أوامر العرض الخاصة بـ Jupyter/Google Colab، ولذلك قد تختلف طريقة ظهور المخرجات والرسوم عند تشغيله باستخدام CMD.
 
 تستخدم المحاكاة بذرة عشوائية ثابتة (`seed=2026`) للمساعدة على إعادة إنتاج النتائج في البيئة نفسها.
