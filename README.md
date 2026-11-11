@@ -176,7 +176,7 @@ ai-decision-making-ab-test/
 بعد تنزيل المستودع وفتح مجلده في Terminal أو CMD:
 
 ```bash
-python -m pip install -r requirements.txt
+cd ai-decision-making-ab-test-main
 ```
 
 ### تشغيل المراحل الأربع
